@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-SG">
+    <head>
+        <title>testing</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="mapo tofu" />
+        <meta name="description" content="about page"/>
+        <link rel="icon" href="images/strawberry.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/indexes.css" />
+    </head>
+    <body>
+        <dl>
+            <dt>name/title: </dt>
+            <dd>about this website</dd>
+            <dt>date </dt>
+            <dd>2023-12-30</dd>
+            <dt>type: </dt>
+            <dd>article</dd>
+            <dt>creator: </dt>
+            <dd>mapo tofu</dd>
+            <dt>description: </dt>
+            <dd>Why I created this website and the technical implementation of it.</dd>
+            <dt>content: </dt>
+            <dd>The idea is to represent the knowledge graph back-end as a small, sustainable set of static html files. This is so you can browse records and entities contained in the knowledge graph through a more familiar, almost old-web-esque experience. I wanted to design a smooth pipeline for updating a repository comprising many different formats. I've come up with the following workflow so far:
+                <ol>
+                    <li>Data to be published in the knowledge graph is entered into a CSV file, and converted to RDF using Ontotext Refine</li>
+                    <li>Photographs run through dithering programme and converted to 400x300</li>
+                    <li>RDF data converted to HTML (resource template) using ??? and stored in /resources/</li>
+                    <li>Indexes are regenerated and converted to HTML (index template) using ??? and stored in /indexes/</li>
+                </ol></dd>
+            <dt>related resources: </dt>
+            <dd><a href="">mapo-tofu data model</a></dd>
+        </dl>
+    </body>
